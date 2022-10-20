@@ -1,0 +1,64 @@
+body{
+    border: 4px solid;
+    border-radius: 50px;
+    margin: 5% auto;
+    padding: 20px ;
+    width: 30vw;
+    height: 80vw;
+    
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url(https://t4.ftcdn.net/jpg/02/66/38/15/360_F_266381525_alVrbw15u5EjhIpoqqa1eI5ghSf7hpz7.jpg); 
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.50; 
+}
+
+body, main{ 
+text-align: center;
+}
+
+.subject{
+    letter-spacing: 2px;
+    margin: 5px auto;
+    padding: 10px 0 0 0;
+   font-size: 20px;
+
+}
+
+#title{
+    padding: 20px;
+    font-size: 40px;
+}
+
+hr{
+    border: 1px solid;
+}
+
+div{
+    font-size: 18px;
+    background-color: #d0efff;
+    border-radius: 20px;
+    padding: 1px;
+}
+
+form{
+    margin: 50px;
+}
+
+input{
+    text-align: center;
+    margin: 2px;
+}
+
+
+
+
